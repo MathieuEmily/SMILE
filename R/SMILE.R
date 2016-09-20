@@ -1,3 +1,7 @@
+L2.norm <- function(x){
+	return(sqrt(x%*%x))
+}
+
 d2s <- function(mat){
 	mat.cond <- sweep(mat,MARGIN=1,apply(mat,1,sum),"/")
 	L2 <- as.matrix(dist(mat.cond))
