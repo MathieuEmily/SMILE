@@ -27,7 +27,7 @@ selected=ind.sel,hc=hc,d2s=MatDis
 data(GenomicRegion)
 
 ## Computation of the SMILE procedure with a graphical output
-res <- SMILE(x)
+res <- SMILE(GenomicRegion)
 
 ## Identification of the individuals selected with SMILE
 res$selected
