@@ -11,7 +11,6 @@ SMILE(x,plot=TRUE)
 
 \value{
 A list containing the following components:
-selected=ind.sel,hc=hc,d2s=MatDis
 	\item{selected}{A \code{\link{vector}} that stored the subset of individuals selected by SMILE}
 	\item{hc}{An object of class \code{\link{hclust}} corresponding to the hierarchical clustering tree obtaining with SMILE}
 	\item{d2s}{An object of class \code{\link{dist}} corresponding to the dissimilarity matrix computed with the dissimilarity measure d2s.}
