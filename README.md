@@ -1,5 +1,7 @@
 # SMILE
+The aim of this package is to propose an implementation of the SMILE statistical method. Such a method aims at detecting subpopulation(s) (breed for example) under selection. Based on the haplotype data in a given genomic region, the method computes the d2s dissimilarity and performs a hierarchical clustering to extract the subpopulation under selection.
 
+## Installation
 To install and load the package in R
 
 ```ruby
@@ -10,7 +12,7 @@ library(SMILE)
 
 Function SMILE takes as input a data.frame x, where x has n rows (individuals) and p columns (features such as haplotypes). Cell (i,j) of the input matrix contains the number of occurence of the features j observed in individual j.
 
-# Example:
+## Example:
 
 ```ruby
 data(GenomicRegion)
